@@ -1,0 +1,42 @@
+body {
+    background-color: black; /* Esto permite cambiar el color del fondo de la pagina*/
+}
+
+
+/*
+.titulo, el punto señala que se trata de una clase 
+*/
+.titulo
+    {color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid blue;
+    text-align:center
+}
+
+/*
+Propiedad que permite editar la lista de forma vertical a horizontal
+*/
+ul {
+    background-color: aqua; /* Cambia solo el color del fondo de los links */
+    list-style-type: none;
+    margin: 0;
+    margin-top: 50px; /* Esto crea un margen entre los elementos y la parte superior de la pagina */
+    padding: 50px; /* Cambia el tamaño del fondo de los links */
+  }
+
+
+/*
+Esto borra la función de bajar cada elemento de la lista, por ende, todos quedarán en la misma linea
+*/
+li {
+    background-color: aqua; /* Cambia solo el color del fondo de los links */
+    display: inline;
+    margin-left: 100px; /* Esto crea un margen entre los elementos y también aplica a la parte izquierda de la pantalla*/
+    font-size: 50px;
+}
+
+li a{
+    text-decoration: none; /* Con esto le quito lo subrayado cuando le hago click a los links */
+    color:black; /* Cambia el color del texto */
+}
